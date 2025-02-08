@@ -24,7 +24,7 @@ def icon(emoji: str):
 
 icon("🏎️")
 
-st.subheader("Groq Chat Streamlit App", divider="rainbow", anchor=False)
+st.subheader("Groq MultiModel Chat", divider="rainbow", anchor=False)
 
 # Initialize the client only if the API key is provided
 client = Groq(api_key=api_key) if api_key else None
